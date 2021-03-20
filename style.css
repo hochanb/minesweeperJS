@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+#table{
+    margin:20px auto;
+}
+
+table{
+    border-collapse: collapse;
+
+}
+td{
+    width:32px;
+    height: 32px;
+    padding:0;
+    border:1px solid #444;
+    text-align: center;
+}
+.closed{
+    padding:0;
+    background: #888;
+}
+
+.open{
+    background:#fff;
+}
