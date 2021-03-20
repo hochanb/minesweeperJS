@@ -18,7 +18,28 @@ td{
     border:1px solid #444;
     text-align: center;
 }
+input[type=number]{
+    width:100px;
+}
+#inputContainer{
+    color:white;
+    text-align: center;
+}
 
+#btn{
+    color:white;
+    margin:10px;
+    text-align: center;
+    font-size: 10px;
+    background: #222;
+    border:4px outset #333;
+    width:200px;
+    height: 40px;
+    padding:10px 30px;
+}
+#btn:active{
+    background: #555;
+}
 
 .closed{
     padding:0;
