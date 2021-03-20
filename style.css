@@ -2,14 +2,14 @@
     margin:0;
     box-sizing: border-box;
 }
-
-#table{
-    margin:20px auto;
+body{
+    background: #222;
 }
 
 table{
     border-collapse: collapse;
-
+    
+    margin:40px auto;
 }
 td{
     width:32px;
@@ -18,11 +18,33 @@ td{
     border:1px solid #444;
     text-align: center;
 }
+
+
 .closed{
     padding:0;
-    background: #888;
+    border:2px solid #444;
+    background: rgb(122, 122, 122);
+}
+
+.closed:hover{
+    background:#ccc;
 }
 
 .open{
+    transition-property: background;
+    transition-duration: 0.6s;
+    transition-timing-function: ease-out;
     background:#fff;
+}
+
+.mine{
+    background:rgb(114, 23, 23);
+    color:rgb(255, 183, 28);
+}
+
+@keyframes openAnimation{
+    0%{ background: #888;}
+    80%{    background: #666;}
+    81%{    background:#fff;}
+    100%{   background: #fff;}
 }
